@@ -204,6 +204,11 @@ tiggerDictionary = [
         "triggers": [["tigger", "t-i-double-g-er"]],
         "type": "text",
         "payload": "That's me!"
+    },
+    {
+        "triggers": ["rude"],
+        "type": "text",
+        "payload": "Rude!"
     }
 ]
 
@@ -260,7 +265,7 @@ def evalTrigger(arr, message):
 
 # generate helptext from dictionary
 def generateHelpText():
-    helptext = ""
+    helptext = "type '/help' to see this text\nwell ^ [start coming v starts coming]\nplease stop\n"
     flag = False
 
     # iterate through dictionary
