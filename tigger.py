@@ -186,7 +186,7 @@ tiggerDictionary = [
         "payload": "Fuck you!"
     },
     {
-        "triggers": ["triggersed"],
+        "triggers": ["triggered"],
         "type": "text",
         "payload": "T-I-DOUBLE-G-ER-ED!"
     },
