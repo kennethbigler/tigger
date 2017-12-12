@@ -141,11 +141,6 @@ tiggerDictionary = [
         "payload": "akbar"
     },
     {
-        "triggers": ["allahu", "!", "akbar"],
-        "type": "text",
-        "payload": "akbar"
-    },
-    {
         "triggers": ["aloha", "!", "snackbar"],
         "type": "text",
         "payload": "snackbar"
